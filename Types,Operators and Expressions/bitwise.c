@@ -14,7 +14,5 @@ int main()
 
     printf("b<<1 = %d\n", b << 1);
 
-    printf("b>>1 = %d\n", b >> 1);
-
     return 0;
 }
