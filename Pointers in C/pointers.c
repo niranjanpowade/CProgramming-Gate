@@ -9,5 +9,5 @@ void main()
     printf("%u", b);
     printf("%d", *b);
     printf("%u", &b);
-    printf("The address where variable a is located is %d", &x);
+    printf("The address where variable a is located is %d", &b);
 }
