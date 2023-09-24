@@ -1,2 +1,2 @@
-int sum(int, int);
+int sum(int, int); //Sum is actually a function which is taking two arguments and which is retuurning an interger
 int (*fp)(int, int); // fp is a pointer to a function which is taking two parameters and which is returning an interger
