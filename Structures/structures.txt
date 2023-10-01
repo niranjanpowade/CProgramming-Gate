@@ -1,0 +1,28 @@
+Structures means kind of grouping
+Structures are used to store a number of elements of different type unlike array where you can only story same type of elements.
+So structures are importatnt in c language
+
+Syntax:- 
+
+struct niru  //Here niru is tag which is optional
+{
+    int i;
+    char name;
+}x,y,z;    //Also struct niru x,y,z;
+
+x.i=10;
+x.name="Niranjan";
+//Here three structures x,y,z are being created
+
+
+//Now lets see nested structures
+struct ex1{
+    struct niru a;
+    struct niru b;
+}
+
+struct ex1 t;               --------------------
+                            |  ------  ------  |
+                            |  | a  |  |  b |  |  t    so t.a.i=10;
+                            |  ------  ------  |
+                            ---------------------
